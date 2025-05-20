@@ -1,0 +1,180 @@
+
+body, html{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}     
+
+/*Logotipo*/
+.logo{
+    display: flex;
+    position: absolute;
+    left: 0;    
+    margin-left: 3rem;
+    margin-top: 4vh;
+}
+.logo img{
+    width: 15vw;
+}
+
+
+/*Cabeçalho*/
+ header {
+    background-color: #000000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem ;
+    background-image: url(https://cdn.pixabay.com/video/2023/06/25/168811-839864556_tiny.jpg);
+    background-size: cover;
+    height: 0vh;
+}
+
+/*Pagina*/
+main {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: left;
+    display: flex;
+    color: white;
+    margin-top: -10vh; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.pixabay.com/video/2023/06/25/168811-839864556_tiny.jpg');
+    background-size: cover;
+    height: 104vh;
+}
+/*Navegação*/
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 2vh;
+    gap:10vw;
+    padding: 0;
+}
+.nav ul li a {
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Bebas Neue";
+    transition: color 0.3s ease;
+    font-size: 1.5vw;
+    gap: 10vw;
+    cursor: pointer;
+    z-index: 10;
+}
+.nav ul li a:hover {
+    color: #df7000;
+}
+
+/*Texto*/
+h1{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 10vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px; 
+    margin-top: 40vh;
+    margin-left: 10vw;
+    position: relative;
+    z-index: 1 ;
+    max-width: 50vw;
+}
+h2{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 4vw;
+    font-style: normal;
+    justify-content: center;
+    position: absolute;
+}
+
+
+/*Linha*/
+.linha{
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    height: 0.5px;
+    background-color: #ffffff;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    position: relative;
+}
+/*Menu*/
+.menu-icon {
+    position: absolute;
+    margin-top: 3vh;
+    width: 25px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.menu-icon span :hover{
+    color: #df7000;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    height: 70vh;
+    margin: 0;
+}
+h3{
+    position:absolute;
+    background-color: #000000;
+    color: #FFF;
+    font-family: "Arial";  
+    font-weight: 20;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 10rem;
+    justify-content: center;
+}
+.linha2{
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    height: 0.5px;
+    background-color: #ffffff;
+    margin-top: 4.5rem;
+    position: relative;
+}
+.carrossel_galeria{
+    display: flex;
+    height: 100%;
+    width: 85vw;
+    gap: 5px;
+}
+.glr_foto{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+
+}
+.glr_foto img{
+    width: 25vw;
+    height: 45vh;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
